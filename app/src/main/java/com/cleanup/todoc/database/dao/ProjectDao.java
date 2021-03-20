@@ -24,8 +24,8 @@ public interface ProjectDao {
     @Query("SELECT * FROM Project WHERE id = :id")
     LiveData<Project> getProject(long id);
 
-    @Delete
-    void deleteAllProjects(List<Project> project);
+    //@Delete
+    //void deleteAllProjects(List<Project> project);
 
 }
 
